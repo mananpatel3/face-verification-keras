@@ -3,7 +3,7 @@ from scipy.spatial import distance
 from PIL import Image
 import numpy as np
 
-cmp.init("facenet_keras.h5")
+cmp.init("h5") #model file
 
 
 def single_image(img_1, img_2):
